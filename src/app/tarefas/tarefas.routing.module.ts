@@ -11,4 +11,5 @@ export const TarefaRoutes: Routes = [
         path: 'tarefas/listar',
         component: ListarTarefaComponent
     },
+    
 ];

@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {TarefaService} from './shared';
 import { ListarTarefaComponent} from './listar';
+import {RouterModule, Router} from '@angular/router';
+import {FormsModule} from '@angular/forms';
 
 
 
@@ -14,7 +16,9 @@ import { ListarTarefaComponent} from './listar';
   ],
   
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    FormsModule
   ]
 })
 export class TarefasModule { }
